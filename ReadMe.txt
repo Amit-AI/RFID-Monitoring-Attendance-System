@@ -1,6 +1,6 @@
 1. Install arduino ide and xampp control
 2. Paste RFID folder in the htdocs folder inside xampp folder(i.e. folder where you installed xampp)
-3. Open arduino code in arduino ide, change IP address in line in the code i.e -> http.begin("http://192.168.74.56/test/RFID/post.php");  //Specify request destination 
+3. Open arduino code in arduino ide, change IP address in line in the code i.e -> http.begin("http://192.168.74.XX/test/RFID/post.php");  //Specify request destination 
 4. You may also change ssid and pass
 5. Upload the code to nodeMCU
 6. Open Xampp control Panel using windows search bar -> start apache and mysql
